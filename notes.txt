@@ -1,0 +1,114 @@
+tags
+
+
+forms and form validations
+Accessibility 
+
+semantic tags vs non-semantic tags 
+
+browser ?
+hyper text markup language (HTML)
+
+- you will use tag for writing code
+
+markup
+markdown
+
+
+
+VS Code 
+Browser 
+-> use the html parser 
+-> takes the text content inside the file 
+-> create the object called DOM 
+
+-> CSS Parser
+-> will add styling to the final DOM 
+
+
+open-close tag 
+
+self closing tags 
+- img 
+- hr
+- br 
+- input 
+- meta 
+
+<br />
+<hr> 
+or <hr></hr>
+
+http://127.0.0.1:5500/index.html
+
+http -> Protocol
+127.0.0.1 -> localhost 
+5500 -> port number 
+index.html -> file name
+
+
+
+
+attributes ?? <meta charset="UTF-8" />
+meta -> used to mention the metadata about the web page 
+
+
+- meta -> tagname 
+- charset -> attributes 
+
+"UTF-8" => Unicode Transformational Format - 8bit
+UTF-16 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+a
+h1 to h6
+div 
+br
+ul
+li
+hr
+strong
+p
+b
+span
+img
+tr
+td
+th
+tbody
+em
+
+link
+style
+
+
+input
+button
+
+nav
+section
+main
+article
+footer
+header
+aside
+
+
+
+
+
+script
+
+
+div 
+span
+p
+
+
+
+product building photos
+event management photos 
+squad photos 
+squad awards 
+
