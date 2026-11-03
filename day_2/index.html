@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <!-- 
+    Collect the below mentioned details:
+
+student_name 
+email_id 
+contact_number 
+password 
+date_of_birth 
+team_size 
+gender - (male / female)
+select_your_team_color_for_t_shirt -
+type_of_meals (breakfast, lunch, dinner) - can select either 1 or 2 or all 3
+preferred_track - either (frontend / backend / full stack )
+upload_id_card - as image (jpg file allowed)
+arrival_time - (time)
+
+
+type
+name -> 
+id
+value 
+placeholder
+
+
+    -->
+    <form action="../day_2/status.html" method="GET">
+      <label for="student_name">Name of the Student</label>
+      <input
+        type="text"
+        placeholder="Enter Your Name Here"
+        id="student_name"
+        value="kumaresan"
+        name="student_name"
+        readonly
+      />
+      <br />
+      <br />
+      <!-- student email id  -->
+      <label for="student_email">Email ID</label>
+      <input
+        type="email"
+        placeholder="Enter Your Email Here"
+        id="student_email"
+        required
+      />
+
+      <br />
+      <br />
+      <!-- mobile number -->
+      <label for="mobile">Mobile Number</label>
+      <input
+        type="tel"
+        id="mobile"
+        placeholder="Enter your Mobile number"
+        disabled
+      />
+      <br />
+      <br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="Enter your password"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="">Select Your Date</label>
+      <input type="date" min="2026-11-03" max="2026-12-05" />
+
+      <!-- gender - (male / female) -->
+      <br />
+      <br />
+
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+
+      <br />
+      <br />
+
+      <input type="checkbox" name="food" id="breakfast" />Breakfast
+      <input type="checkbox" id="lunch" name="food" />Lunch
+      <input type="checkbox" id="dinner" name="food" />Dinner
+
+      <br />
+      <br />
+
+      <label for="color">Select Your Color</label>
+      <input type="color" id="color" />
+
+      <!-- select your tech stack -->
+      <select>
+        <option value="frontend">Frontend</option>
+        <option value="backend">Backend</option>
+        <option value="full stack">Full Stack</option>
+      </select>
+
+      <br />
+      <br />
+      <input type="file" multiple accept=".jpg,.png" />
+
+      <br />
+      <br />
+      <!-- time format -->
+      <input type="time" />
+      <br />
+      <br />
+
+
+      <textarea>
+        
+      </textarea>
+      <button>Submit Form</button><br />
+
+      <br />
+    </form>
+  </body>
+</html>

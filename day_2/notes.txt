@@ -1,0 +1,51 @@
+Create a Registration form for the Hackathon using forms in html (no need to use CSS and JS)
+
+Collect the below mentioned details:
+
+student_name 
+email_id 
+contact_number 
+password 
+date_of_birth 
+team_size 
+gender - (male / female)
+select_your_team_color_for_t_shirt -
+type_of_meals (breakfast, lunch, dinner) - can select either 1 or 2 or all 3
+preferred_track - either (frontend / backend / full stack )
+
+upload_id_card - as image (jpg file allowed)
+
+arrival_time - (time)
+    
+At the end there should be one button to Submit.
+
+
+select -> one option can be selected
+textarea => single (or) multiline content  
+
+text = a-zA-Z0-9 & special characters => single line content 
+radio button - Circular - only option allowed to select
+checkbox - square - one or more options we can select
+date
+time 
+password 
+month - i dont know 
+email 
+tel - phone number
+number -
+file -> upload 
+url -> any URL links can be provided inside the input type "url" 
+range -> 
+
+Color -> 
+
+UTC format 
+
+
+HTTP methods
+
+GET
+POST
+PUT
+Patch
+Delete 
