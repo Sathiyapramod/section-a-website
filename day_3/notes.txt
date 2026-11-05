@@ -1,0 +1,93 @@
+styling
+coloring
+responsive design 
+
+display properties
+alignment
+zoom in zoom out 
+
+animations 
+transitions 
+
+opacity vs transparent 
+
+How to use CSS 
+- class
+- id
+- tag name 
+- Selectors (important)
+
+Inline -> 
+Internal -> 
+External -> 
+
+
+
+Rank 1 -> Inline CSS
+Rank 2 -> Internal CSS 
+Rank 3 -> External CSS 
+
+
+height
+width
+color
+background-color 
+font-size
+font-weight
+text-alignment
+text-decoration 
+font-family
+
+border 
+margin
+padding 
+box-shadow
+box-sizing 
+letter-spacing 
+
+
+units in CSS 
+
+px => default 
+%
+1rem => root element => 16 px 
+em => 
+
+text => rem 
+img => px 
+width & height => %, rem, px 
+fr -> 
+vh , vw -> 
+
+
+
+pseudo selectors 
+
+1. tag selector 
+2. id selector 
+3. class selector
+4. descendant selector 
+5. child selector
+
+
+
+
+pseudo class 
+
+
+::after
+::before 
+
+:hover
+:active
+:focus
+:target
+
+
+TBD
+:link
+:visited
+
+::nth-child 
+::first-child
+::last-child

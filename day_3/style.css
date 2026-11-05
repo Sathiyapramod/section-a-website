@@ -1,0 +1,89 @@
+/* LHS -> property */
+/* RHS -> value */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* tag selectors  */
+header {
+  background-color: #1a932e;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* id selector */
+#strengths {
+  color: lightblue;
+}
+
+/* class selector */
+.text-white {
+  color: white;
+}
+
+/* descendant selector */
+.bullet-points li {
+  background-color: yellow;
+}
+
+/*  child selector  */
+section > h2 {
+  background-color: lightpink;
+}
+
+main + p {
+  background-color: aqua;
+}
+
+.title {
+  color: purple;
+  text-align: center;
+}
+
+.title::before {
+  /* content: "";
+  position: absolute;
+  border: 1.5px solid black;
+  width: 100px;
+  top: 18px;
+  left: 10%; */
+}
+
+.title::after {
+  /* content: "";
+  position: absolute;
+  border: 1.5px solid black;
+  width: 100px;
+  top: 18px;
+  left: 10%; */
+}
+
+.final-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.final-button:active {
+  background-color: green;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px 0;
+}
+
+.block-1,
+.block-2 {
+  width: 33%;
+  height: 1px;
+  border-bottom: 1.5px solid black;
+}

@@ -1,0 +1,44 @@
+- Text Properties
+- CSS Box Model
+- Font Properties
+- Width and Height
+- Margin and Padding
+- Background Properties
+- Border
+
+- Box Sizing
+
+text-alignment - start , end
+color
+text-decoration
+text-spacing 
+letter-spacing
+text-transform
+text-shadow -> four values 
+
+first -> h-shadow
+second ->  v-shadow
+third -> blur-radius
+fourth -> color   
+
+
+Font Properties
+-font style
+-font family
+-font weight
+-font size
+
+bg_color:
+bg_image:
+bg_position:
+
+
+background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+
+To Read:
+
+1. Box-sizing 
+2. flex ?? 
+3. how many display properties are there ??
+
+
