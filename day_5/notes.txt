@@ -1,0 +1,44 @@
+box-sizing
+- content-box
+as it is 200 px width - OK 
+
+- border-box
+width -> content'width + padding + Border + margin => WIDTH 
+
+10 + 10
+0.635 + 0.635
+20 + 20
+158.750 (only 1 time)
+
+= 220px 
+
+
+display types 
+
+- block
+- inline
+- inline-block
+
+- flex
+- grid
+- none
+
+
+inline ? -> (I occupy my size) -> span , anchor tag 
+block ? -> default (I occupy entire screen) -> p ,all headings, div 
+
+
+
+
+
+position property:
+
+
+- sticky
+- fixed
+- static (default)
+
+
+
+- relative
+- absolute

@@ -1,0 +1,48 @@
+main > div > h1 {
+  background-color: sandybrown;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+main > div > h2 {
+  background-color: sandybrown;
+  padding: 0px;
+  position: sticky;
+  top: 25px;
+}
+
+main > div > h3 {
+  background-color: sandybrown;
+  padding: 0px;
+  position: sticky;
+  top: 35px;
+}
+/* #squad-1 {
+  position: fixed;
+
+} */
+
+main > div > p {
+  /* TODO */
+}
+
+.nav-bar {
+  /* TODO */
+}
+
+.chat-bubble {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+  background-color: cornflowerblue;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.squad-3,
+.squad-4 {
+  padding-bottom: 500px;
+}
