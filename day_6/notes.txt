@@ -1,0 +1,23 @@
+used for Single Dimensional Arrangement
+
+
+row or column wise if I want to arrange something 
+
+I will use flex 
+
+Types of Flex direction 
+
+- Row 
+- Column 
+- Row-Reverse
+- Column-reverse
+
+
+will work along main-axis (X-axis)
+justify-content 
+text-align 
+
+
+for Cross-axis (Y-axis)
+align-items
+align-content (inside my child div)
