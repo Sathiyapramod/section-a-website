@@ -1,0 +1,33 @@
+TECH 
+- HTML
+- CSS
+- JS (whatever we cover)
+- postgresQL
+- Python  
+
+PS -> 
+
+L2, L3, L4 
+
+
+flex -> either row (or) column wise alignment
+
+grids
+
+1. you can align children in 2D format 
+2. both rows and columns can be applied 
+
+
+Properties in Grids:
+
+1. display 
+2. grid-template-columns
+3. grid-template-rows
+4. row-gap 
+5. column-gap 
+
+
+* grid-column
+* grid-row
+
+

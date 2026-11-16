@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  /* TODO */
+}
+
+.container > div {
+  /* TODO */
+}
+
+.grid-5 {
+  /* TODO */
+}
+
+.grid-6 {
+  /* TODO */
+}
+
+.grid-7 {
+  /* TODO */
+}
