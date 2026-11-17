@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    var a = 10;
+    console.log(a.toString(), typeof a.toString());
+
+    const PI = 3.14;
+
+    console.log(parseInt(PI));
+    const width = "100px"; // 100
+
+    console.log(parseInt(width));
+    var password = "abcd1234";
+    console.log(parseInt(password)); // NaN
+
+    var enochPassword = "1234abcd";
+    console.log(parseInt(enochPassword)); // 1234
+
+    const height = "16.75rem";
+    console.log(parseInt(height));
+    console.log(parseFloat(height));
+
+    console.log(true + true); //true //false //truetrue //1  //2
+
+    // type coercion
+    console.log("1" + 1); // 11
+    console.log(1 + ""); // 11
+
+    console.log("1" - 1); //0
+    console.log("1" - "1"); //error //"0" //0
+
+    console.log("*" * 10);
+
+    var x = 10;
+    x = x + 1;
+
+    var pressure = 120;
+    pressure = pressure - 10;
+  </script>
+</html>

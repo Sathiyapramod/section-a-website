@@ -1,0 +1,68 @@
+variables in js -> var, let, const
+
+data types 
+
+number
+boolean
+string
+
+null
+undefined
+
+arrays
+objects
+
+loops
+
+1.for
+2.while
+3.do..while
+
+
+conditionals
+
+1. if
+2. if.. else 
+3. if.. else if 
+4. if.. else if .. else
+
+typecasting 
+
+1. parseInt
+2. parseFloat
+3. number
+4. string()
+5. toString()
+
+
+
+
+python :
+
+number to string -> str
+string to number -> int()
+number to boolean -> bool()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
