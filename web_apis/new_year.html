@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    // make a count down
+    let time = 10;
+    setInterval(() => {
+      if (time > 0) {
+        console.log(time);
+        time--;
+      }
+    }, 1000);
+
+    setTimeout(() => {
+      alert("Happy new Year");
+    }, 11000);
+  </script>
+</html>
