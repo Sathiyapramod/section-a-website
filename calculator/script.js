@@ -1,46 +1,80 @@
-/**
- * def <function_name>(param1, param2,...):
- *      return output
- *
- *
- */
-var content = "hello world";
+// you need to Listen the button activity
 
-// normal function
-function add(a, b) {
-  // use either let or const
-  let output = a + b;
-  console.log(output);
-  return output;
-}
+const addBtn = document.getElementById("add");
+const subBtn = document.getElementById("subtract");
+const multiplyBtn = document.getElementById("multiply");
+const divideBtn = document.getElementById("divide");
 
-function sayHello() {
-  return "Hello how are you !!!";
-}
+addBtn.addEventListener("click", () => {
+  // read the values from the input box
+  // first
+  // second
+  let x = document.getElementById("first");
+  let y = document.getElementById("second");
 
-// function expression
-const subtract = function (b, d) {
-  let output = b - d;
-  return output;
-};
+  x = x.value;
+  y = y.value;
 
-console.log(subtract(5, 2)); // 3
+  let temp = parseInt(x) + parseInt(y);
 
-// arrow function
-// area of a rectangle
-const areaOfRectangle = (l, b) => {
-  let area = l * b;
-  console.log(area);
-};
+  const final = document.getElementById("output");
 
-areaOfRectangle(10, 15); //150
+  final.innerText = temp;
+});
 
-// area of a circle
-const areaOfCircle = (radius) => {
-  let area = 3.14 * radius * radius;
-  console.log(area);
-};
+subBtn.addEventListener("click", () => {
+  // read the values from the input box
+  // first
+  // second
+  let x = document.getElementById("first");
+  let y = document.getElementById("second");
 
-console.log(typeof areaOfCircle)
+  x = x.value;
+  y = y.value;
 
-areaOfCircle(10);
+  let temp = parseInt(x) - parseInt(y);
+
+  const final = document.getElementById("output");
+
+  final.innerText = temp;
+});
+
+multiplyBtn.addEventListener("click", () => {
+  // read the values from the input box
+  // first
+  // second
+  let x = document.getElementById("first");
+  let y = document.getElementById("second");
+
+  x = x.value;
+  y = y.value;
+
+  let temp = parseInt(x) * parseInt(y);
+
+  const final = document.getElementById("output");
+
+  final.innerText = temp;
+});
+
+divideBtn.addEventListener("click", () => {
+  // read the values from the input box
+  // first
+  // second
+  let x = document.getElementById("first");
+  let y = document.getElementById("second");
+
+  x = x.value;
+  y = y.value;
+
+  let temp = 0;
+
+  if (y == 0) {
+    temp = "Invalid Y value";
+  } else {
+    temp = parseInt(x) / parseInt(y);
+  }
+
+  const final = document.getElementById("output");
+
+  final.innerText = temp;
+});

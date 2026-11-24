@@ -3,8 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
-  <script></script>
+  <body>
+    <div class="calculator">
+      <input
+        type="number"
+        name="first"
+        id="first"
+        placeholder="enter the value of x"
+      />
+      <input
+        type="number"
+        name="second"
+        id="second"
+        placeholder="enter the value of y"
+      />
+    </div>
+    <div class="action-buttons">
+      <button id="add">add</button>
+      <button id="subtract">subtract</button>
+      <button id="multiply">multiply</button>
+      <button id="divide">divide</button>
+    </div>
+
+    <div id="output"></div>
+
+  </body>
+  <script src="./script.js"></script>
 </html>
