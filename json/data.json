@@ -1,0 +1,16 @@
+[
+  {
+    "name": "enoch",
+    "age": 30,
+    "pi": 3.14,
+    "skills": ["html", ""],
+    "status": false
+  },
+  {
+    "name": "pugazhendhi",
+    "age": 30,
+    "pi": 3.14,
+    "skills": ["html", ""],
+    "status": false
+  }
+]

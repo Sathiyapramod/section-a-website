@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <input
+        type="text"
+        id="firstname"
+        name="lastname"
+        placeholder="enter first name"
+      />
+
+      <div id="error-block"></div>
+      <button>Click Me</button>
+    </form>
+  </body>
+  <script>
+    var username = document.getElementById("firstname");
+    var errorBlock = document.getElementById("error-block");
+
+    username.addEventListener("input", () => {
+      if (!username.checkValidity()) {
+        if (username.validity.valueMissing) {
+          username.setCustomValidity("Email address is required.");
+        } else if (username.validity.typeMismatch) {
+          username.setCustomValidity("Please enter a valid email address.");
+        }
+      } else {
+        // Clear custom error when valid
+        username.setCustomValidity("");
+      }
+
+      username.reportValidity();
+    });
+  </script>
+</html>
