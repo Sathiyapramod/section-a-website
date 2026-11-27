@@ -86,10 +86,19 @@ const shoeContainer = document.getElementById("shoe-container");
 finalData.forEach((shoe) => {
   let productName = shoe.productName;
   let url = shoe.ProductURL;
+  let company = shoe.CompanyName;
+  let price = shoe.price;
+  let qty = shoe.qty;
 
   let temp = `<div class='card'>
   <img src='${url}'/>
-  <h3>${productName}</h3>
+  <div class='special-div'>
+    <span>${productName}</span>
+    <button class='button'>+</button>
+  </div>
+  <div class='company'>${company}</div>
+  <span class='price'>${price}</span>
+  <span>Items: ${qty}</span>
   </div>`;
 
   console.log(temp);
